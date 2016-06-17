@@ -21,7 +21,6 @@
 //SOFTWARE.
 
 #import "BATabBar.h"
-#import "UIColor+ColorWithHex.h"
 #import "BATabBarController.h"
 #import "BATestUtil.h"
 
@@ -29,15 +28,15 @@
 
 +(NSArray*)createValidTabBarItemsWithTitle {
     NSMutableAttributedString * option1 = [[NSMutableAttributedString alloc] initWithString:@"Option1"];
-    [option1 addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHex:0xA8A8A8] range:NSMakeRange(0,option1.length)];
+    [option1 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(0,option1.length)];
     BATabBarItem* tabBarItem = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon1_unselected"] selectedImage:[UIImage imageNamed:@"icon1_selected"] title:option1];
     
     NSMutableAttributedString * option2 = [[NSMutableAttributedString alloc] initWithString:@"Option2"];
-    [option2 addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHex:0xA8A8A8] range:NSMakeRange(0,option2.length)];
+    [option2 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(0,option2.length)];
     BATabBarItem* tabBarItem2 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon2_unselected"] selectedImage:[UIImage imageNamed:@"icon2_selected"] title:option2];
     
     NSMutableAttributedString * option3 = [[NSMutableAttributedString alloc] initWithString:@"Option3"];
-    [option3 addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHex:0xA8A8A8] range:NSMakeRange(0,option3.length)];
+    [option3 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(0,option3.length)];
     BATabBarItem* tabBarItem3 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon3_unselected"] selectedImage:[UIImage imageNamed:@"icon3_selected"] title:option3];
     
     return @[tabBarItem,tabBarItem2,tabBarItem3];
@@ -59,11 +58,11 @@
     BATabBarItem* tabBarItem = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon1_unselected"] selectedImage:[UIImage imageNamed:@"icon1_selected"]];
     
     NSMutableAttributedString * option2 = [[NSMutableAttributedString alloc] initWithString:@"Option2"];
-    [option2 addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHex:0xA8A8A8] range:NSMakeRange(0,option2.length)];
+    [option2 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(0,option2.length)];
     BATabBarItem* tabBarItem2 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon2_unselected"] selectedImage:[UIImage imageNamed:@"icon2_selected"] title:option2];
     
     NSMutableAttributedString * option3 = [[NSMutableAttributedString alloc] initWithString:@"Option3"];
-    [option3 addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHex:0xA8A8A8] range:NSMakeRange(0,option3.length)];
+    [option3 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(0,option3.length)];
     BATabBarItem* tabBarItem3 = [[BATabBarItem alloc] initWithImage:[UIImage imageNamed:@"icon3_unselected"] selectedImage:[UIImage imageNamed:@"icon3_selected"] title:option3];
     
     return @[tabBarItem,tabBarItem2,tabBarItem3];

@@ -22,7 +22,6 @@
 
 #import "BATabBar.h"
 #import "BATabBarItem.h"
-#import "UIColor+ColorWithHex.h"
 #import "Masonry.h"
 
 static NSInteger const BAUniqueTag = 57690;
@@ -115,8 +114,8 @@ static NSInteger const BAUniqueTag = 57690;
 - (void) customInit {
     
     //set default properties
-    self.barItemStrokeColor = [UIColor colorWithHex:0xF23555];
-    self.backgroundColor = [UIColor colorWithHex:0x1C2129];
+    self.barItemStrokeColor = [UIColor redColor];
+    self.backgroundColor = [UIColor blackColor];
     self.barItemLineWidth = 2;
     
     //create container for animations

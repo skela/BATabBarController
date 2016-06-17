@@ -15,19 +15,29 @@
 		6003F59E195388D20070C39A /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BAAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* BAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BAViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* BATabBarControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* BATabBarControllerSpec.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C519A5D504036543B622643D /* libPods-BATabBarController_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E03298BC9F47F912DDB958 /* libPods-BATabBarController_Example.a */; };
+		C6CAC5E11D1411BD00629D5E /* BATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC5DA1D1411BD00629D5E /* BATabBar.m */; };
+		C6CAC5E21D1411BD00629D5E /* BATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC5DC1D1411BD00629D5E /* BATabBarController.m */; };
+		C6CAC5E31D1411BD00629D5E /* BATabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC5DE1D1411BD00629D5E /* BATabBarItem.m */; };
+		C6CAC6261D1412A900629D5E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC60C1D1412A900629D5E /* MASCompositeConstraint.m */; };
+		C6CAC6271D1412A900629D5E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC60F1D1412A900629D5E /* MASConstraint.m */; };
+		C6CAC6281D1412A900629D5E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC6111D1412A900629D5E /* MASConstraintMaker.m */; };
+		C6CAC6291D1412A900629D5E /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC6131D1412A900629D5E /* MASLayoutConstraint.m */; };
+		C6CAC62A1D1412A900629D5E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC6171D1412A900629D5E /* MASViewAttribute.m */; };
+		C6CAC62B1D1412A900629D5E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC6191D1412A900629D5E /* MASViewConstraint.m */; };
+		C6CAC62C1D1412A900629D5E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC61B1D1412A900629D5E /* NSArray+MASAdditions.m */; };
+		C6CAC62D1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC61E1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C6CAC62E1D1412A900629D5E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC6201D1412A900629D5E /* View+MASAdditions.m */; };
+		C6CAC62F1D1412A900629D5E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAC6231D1412A900629D5E /* ViewController+MASAdditions.m */; };
 		D0329FA91CE40C8700F683AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0329FA81CE40C8700F683AB /* LaunchScreen.storyboard */; };
 		D0DDF2231CE5053800CDF661 /* BATabBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF2221CE5053800CDF661 /* BATabBarSpec.m */; };
 		D0DDF2281CE531F500CDF661 /* BATestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF2271CE531F500CDF661 /* BATestUtil.m */; };
 		D0DDF22A1CE536B500CDF661 /* UIColorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF2291CE536B500CDF661 /* UIColorSpec.m */; };
 		D0DDF22C1CE5382800CDF661 /* BATabBarItemSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF22B1CE5382800CDF661 /* BATabBarItemSpec.m */; };
-		FC5112D507469185FFE1EE32 /* libPods-BATabBarController_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04599F1C37223AC9C712388C /* libPods-BATabBarController_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04599F1C37223AC9C712388C /* libPods-BATabBarController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BATabBarController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22E4F7AEFB71A1DDFDEB2B18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		35E03298BC9F47F912DDB958 /* libPods-BATabBarController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BATabBarController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* BATabBarController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BATabBarController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,25 +65,48 @@
 		6003F5A6195388D20070C39A /* BAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* BATabBarController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BATabBarController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* BATabBarControllerSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATabBarControllerSpec.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7A3BF65113E7870AF8FB316E /* Pods-BATabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BATabBarController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BATabBarController_Tests/Pods-BATabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FA625986489FC94566FA258 /* Pods-BATabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BATabBarController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BATabBarController_Tests/Pods-BATabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C02180D9F9AE294B92349C80 /* BATabBarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BATabBarController.podspec; path = ../BATabBarController.podspec; sourceTree = "<group>"; };
-		C861A94F0F12179B827134A1 /* Pods-BATabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BATabBarController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BATabBarController_Example/Pods-BATabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C6CAC5D91D1411BD00629D5E /* BATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBar.h; sourceTree = "<group>"; };
+		C6CAC5DA1D1411BD00629D5E /* BATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBar.m; sourceTree = "<group>"; };
+		C6CAC5DB1D1411BD00629D5E /* BATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBarController.h; sourceTree = "<group>"; };
+		C6CAC5DC1D1411BD00629D5E /* BATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarController.m; sourceTree = "<group>"; };
+		C6CAC5DD1D1411BD00629D5E /* BATabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATabBarItem.h; sourceTree = "<group>"; };
+		C6CAC5DE1D1411BD00629D5E /* BATabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarItem.m; sourceTree = "<group>"; };
+		C6CAC60B1D1412A900629D5E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		C6CAC60C1D1412A900629D5E /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		C6CAC60D1D1412A900629D5E /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		C6CAC60E1D1412A900629D5E /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		C6CAC60F1D1412A900629D5E /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		C6CAC6101D1412A900629D5E /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		C6CAC6111D1412A900629D5E /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		C6CAC6121D1412A900629D5E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6CAC6131D1412A900629D5E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C6CAC6141D1412A900629D5E /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		C6CAC6151D1412A900629D5E /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		C6CAC6161D1412A900629D5E /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		C6CAC6171D1412A900629D5E /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		C6CAC6181D1412A900629D5E /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		C6CAC6191D1412A900629D5E /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		C6CAC61A1D1412A900629D5E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		C6CAC61B1D1412A900629D5E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C6CAC61C1D1412A900629D5E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C6CAC61D1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		C6CAC61E1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		C6CAC61F1D1412A900629D5E /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		C6CAC6201D1412A900629D5E /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		C6CAC6211D1412A900629D5E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C6CAC6221D1412A900629D5E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C6CAC6231D1412A900629D5E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		D0329FA81CE40C8700F683AB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D032EFE21CE4040600BE6F88 /* libSpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSpecta.a; path = "../../Library/Developer/Xcode/DerivedData/BATabBarController-dbnffcvreuknoebtlcofjjruqjhh/Build/Products/Debug-iphonesimulator/Specta/libSpecta.a"; sourceTree = "<group>"; };
 		D0DDF2221CE5053800CDF661 /* BATabBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarSpec.m; sourceTree = "<group>"; };
 		D0DDF2261CE531F500CDF661 /* BATestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATestUtil.h; sourceTree = "<group>"; };
 		D0DDF2271CE531F500CDF661 /* BATestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATestUtil.m; sourceTree = "<group>"; };
 		D0DDF2291CE536B500CDF661 /* UIColorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorSpec.m; sourceTree = "<group>"; };
 		D0DDF22B1CE5382800CDF661 /* BATabBarItemSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATabBarItemSpec.m; sourceTree = "<group>"; };
-		EF241016BBD3D863972453F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FCA71FD5323FC9ED12E14EE7 /* Pods-BATabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BATabBarController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BATabBarController_Example/Pods-BATabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +117,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C519A5D504036543B622643D /* libPods-BATabBarController_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FC5112D507469185FFE1EE32 /* libPods-BATabBarController_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,12 +135,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				C6CAC5D41D1411BD00629D5E /* BATabBarController */,
 				6003F593195388D20070C39A /* Example for BATabBarController */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				889BBCF3153A86AADFBD93DE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,13 +155,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D032EFE21CE4040600BE6F88 /* libSpecta.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				35E03298BC9F47F912DDB958 /* libPods-BATabBarController_Example.a */,
-				04599F1C37223AC9C712388C /* libPods-BATabBarController_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,25 +213,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		C6CAC5D41D1411BD00629D5E /* BATabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				C02180D9F9AE294B92349C80 /* BATabBarController.podspec */,
-				EF241016BBD3D863972453F0 /* README.md */,
-				22E4F7AEFB71A1DDFDEB2B18 /* LICENSE */,
+				C6CAC60A1D1412A900629D5E /* Masonry */,
+				C6CAC5D71D1411BD00629D5E /* Classes */,
 			);
-			name = "Podspec Metadata";
+			name = BATabBarController;
+			path = ../BATabBarController;
 			sourceTree = "<group>";
 		};
-		889BBCF3153A86AADFBD93DE /* Pods */ = {
+		C6CAC5D71D1411BD00629D5E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FCA71FD5323FC9ED12E14EE7 /* Pods-BATabBarController_Example.debug.xcconfig */,
-				C861A94F0F12179B827134A1 /* Pods-BATabBarController_Example.release.xcconfig */,
-				7A3BF65113E7870AF8FB316E /* Pods-BATabBarController_Tests.debug.xcconfig */,
-				7FA625986489FC94566FA258 /* Pods-BATabBarController_Tests.release.xcconfig */,
+				C6CAC5D91D1411BD00629D5E /* BATabBar.h */,
+				C6CAC5DA1D1411BD00629D5E /* BATabBar.m */,
+				C6CAC5DB1D1411BD00629D5E /* BATabBarController.h */,
+				C6CAC5DC1D1411BD00629D5E /* BATabBarController.m */,
+				C6CAC5DD1D1411BD00629D5E /* BATabBarItem.h */,
+				C6CAC5DE1D1411BD00629D5E /* BATabBarItem.m */,
 			);
-			name = Pods;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6CAC60A1D1412A900629D5E /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				C6CAC60B1D1412A900629D5E /* MASCompositeConstraint.h */,
+				C6CAC60C1D1412A900629D5E /* MASCompositeConstraint.m */,
+				C6CAC60D1D1412A900629D5E /* MASConstraint+Private.h */,
+				C6CAC60E1D1412A900629D5E /* MASConstraint.h */,
+				C6CAC60F1D1412A900629D5E /* MASConstraint.m */,
+				C6CAC6101D1412A900629D5E /* MASConstraintMaker.h */,
+				C6CAC6111D1412A900629D5E /* MASConstraintMaker.m */,
+				C6CAC6121D1412A900629D5E /* MASLayoutConstraint.h */,
+				C6CAC6131D1412A900629D5E /* MASLayoutConstraint.m */,
+				C6CAC6141D1412A900629D5E /* Masonry.h */,
+				C6CAC6151D1412A900629D5E /* MASUtilities.h */,
+				C6CAC6161D1412A900629D5E /* MASViewAttribute.h */,
+				C6CAC6171D1412A900629D5E /* MASViewAttribute.m */,
+				C6CAC6181D1412A900629D5E /* MASViewConstraint.h */,
+				C6CAC6191D1412A900629D5E /* MASViewConstraint.m */,
+				C6CAC61A1D1412A900629D5E /* NSArray+MASAdditions.h */,
+				C6CAC61B1D1412A900629D5E /* NSArray+MASAdditions.m */,
+				C6CAC61C1D1412A900629D5E /* NSArray+MASShorthandAdditions.h */,
+				C6CAC61D1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.h */,
+				C6CAC61E1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.m */,
+				C6CAC61F1D1412A900629D5E /* View+MASAdditions.h */,
+				C6CAC6201D1412A900629D5E /* View+MASAdditions.m */,
+				C6CAC6211D1412A900629D5E /* View+MASShorthandAdditions.h */,
+				C6CAC6221D1412A900629D5E /* ViewController+MASAdditions.h */,
+				C6CAC6231D1412A900629D5E /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			path = Masonry/Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,12 +276,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BATabBarController_Example" */;
 			buildPhases = (
-				EBCCBBE90A3C6E5211574CFB /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D39D412018839498872C2DE4 /* 📦 Embed Pods Frameworks */,
-				2E1542DF1B0F48015376CDFB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,12 +293,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BATabBarController_Tests" */;
 			buildPhases = (
-				EE5CCDFFF4C087D1DB284E13 /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9CEC10E757B989D65A54F12C /* 📦 Embed Pods Frameworks */,
-				0FFE73B95159C531B29B188D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,106 +363,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0FFE73B95159C531B29B188D /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BATabBarController_Tests/Pods-BATabBarController_Tests-resources.sh\"\n";
-		};
-		2E1542DF1B0F48015376CDFB /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BATabBarController_Example/Pods-BATabBarController_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CEC10E757B989D65A54F12C /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BATabBarController_Tests/Pods-BATabBarController_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D39D412018839498872C2DE4 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BATabBarController_Example/Pods-BATabBarController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBCCBBE90A3C6E5211574CFB /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EE5CCDFFF4C087D1DB284E13 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CAC62C1D1412A900629D5E /* NSArray+MASAdditions.m in Sources */,
+				C6CAC62B1D1412A900629D5E /* MASViewConstraint.m in Sources */,
+				C6CAC5E31D1411BD00629D5E /* BATabBarItem.m in Sources */,
+				C6CAC6281D1412A900629D5E /* MASConstraintMaker.m in Sources */,
+				C6CAC62E1D1412A900629D5E /* View+MASAdditions.m in Sources */,
 				D0DDF2281CE531F500CDF661 /* BATestUtil.m in Sources */,
+				C6CAC6271D1412A900629D5E /* MASConstraint.m in Sources */,
 				6003F59E195388D20070C39A /* BAAppDelegate.m in Sources */,
+				C6CAC62A1D1412A900629D5E /* MASViewAttribute.m in Sources */,
+				C6CAC62D1D1412A900629D5E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				6003F5A7195388D20070C39A /* BAViewController.m in Sources */,
+				C6CAC6261D1412A900629D5E /* MASCompositeConstraint.m in Sources */,
+				C6CAC6291D1412A900629D5E /* MASLayoutConstraint.m in Sources */,
+				C6CAC5E11D1411BD00629D5E /* BATabBar.m in Sources */,
+				C6CAC5E21D1411BD00629D5E /* BATabBarController.m in Sources */,
+				C6CAC62F1D1412A900629D5E /* ViewController+MASAdditions.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,7 +506,6 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCA71FD5323FC9ED12E14EE7 /* Pods-BATabBarController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -551,7 +522,6 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C861A94F0F12179B827134A1 /* Pods-BATabBarController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -568,7 +538,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A3BF65113E7870AF8FB316E /* Pods-BATabBarController_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -588,7 +557,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FA625986489FC94566FA258 /* Pods-BATabBarController_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";

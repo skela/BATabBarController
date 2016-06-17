@@ -23,7 +23,6 @@
 #import "BATabBarController.h"
 #import "BATabBar.h"
 #import "BATabBarItem.h"
-#import "Masonry.h"
 
 @interface BATabBarController()
 
